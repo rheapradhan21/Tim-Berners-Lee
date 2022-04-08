@@ -1,0 +1,77 @@
+body {
+margin:0;
+padding-top: 800px;
+text-align: center;
+}
+
+.profile {
+    padding: 100px;
+    border-radius: 80%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#b5d1ff 0%,#d0b5ff 100% );
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: cursive;
+    padding:100px;
+}
+
+.line {
+height: 6px;
+background-color: black;
+width: 90px;
+margin: 8px auto;
+}
+
+.parllax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu{
+    position: fixed;
+    background-color:white;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.menu2{
+ display: inline;
+font-family: 'Playfair Display', serif;
+font-size: 25px;
+font-weight: bold;
+padding: 10px;
+}
+
+.menu2:hover{
+    font-size: 40px;
+    text-decoration: underline;
+}
